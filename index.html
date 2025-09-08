@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTSS Exam Results Portal</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="/images/school logo.png" type="image/png">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <img src="/images/logo.png" alt="School Logo" class="logo">
+            <h1>Dugsiga Sare Ee Farsamada Gacanata Qardho</h1>
+            <h2>Gardo Technical Secondary School</h2>
+            <h3>Office of Examinations</h3>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav class="navbar">
+            <a href="#">Front Page</a>
+            <a href="#">Student Outcomes</a>
+        </nav>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <label for="student-id">Roll No</label>
+            <input type="text" id="student-id" placeholder="Enter Roll Number">
+            <button id="search-button">Look for it</button>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result-container" class="result-container" style="display: none;">
+            <div class="student-info">
+                <p><strong>Roll No:</strong> <span id="roll-no"></span></p>
+                <p><strong>Student Name:</strong> <span id="student-name"></span></p>
+                <p><strong>Class:</strong> <span id="class"></span></p>
+                <p><strong>Average:</strong> <span id="average"></span></p>
+                <p><strong class="decision">Decision:</strong> <span id="decision"></span></p>
+            </div>
+            <table id="results-table" class="results-table">
+                <!-- Results will be dynamically inserted here -->
+            </table>
+            <div class="requirements">
+                <p><strong>Shuruudaha Basitaanka Imtixaanku waa:</strong></p>
+                <p>1- In ardaygu u fariisto ugu yaraan 7 maaddo oo kamid ah maadooyinka imtixaanka.</p>
+                <p>2- In celceliska 7da maado ee ugu sareysa imtixaanka ardayga aysan ka hoosayn D (50%).</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>Office Email: <a href="">gtvc2010@gmail.com</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
