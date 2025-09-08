@@ -33,6 +33,10 @@ body {
 .header h1, .header h2, .header h3 {
     margin: 5px 0;
 }
+.header h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
 
 /* Navbar Styles */
 .navbar {

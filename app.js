@@ -20,7 +20,7 @@ const studentResults = {
         grades: { 'Islamic Studies': 95,'Electricity': 95,'Arabic': 95,'Biology': 95,'Mathematics': 95,'English': 95,'Construction': 95,'Chemistry': 95,'Physics': 95,'Somali': 95,'ICT': 95 }
     },
     'F42503': { name: 'AbdiRahaman AbdiKadir Warsame', class: 'Form 4', average: 'A+', decision: 'Pass',
-        grades: { 'Islamic Studies': 95,'Electricity': 95,'Arabic': 95,'Biology': 95,'Mathematics': 95,'English': 95,'Construction': 95,'Chemistry': 95,'Physics': 95,'Somali': 95,'ICT': 95 }
+        grades: { 'Islamic Studies': 95,'Electricity': 95,'Arabic': 95,'Biology': 95,'Mathematics': 96,'English': 92,'Construction': 95,'Chemistry': 91,'Physics': 95,'Somali': 90,'ICT': 94 }
     },
     'F42504': { name: 'Abdirahman Mohamed Muse', class: 'Form 4', average: 'B', decision: 'Pass',
         grades: { 'Islamic Studies': 75,'Electricity': 75,'Arabic': 75,'Biology': 75,'Mathematics': 75,'English': 75,'Construction': 75,'Chemistry': 75,'Physics': 75,'Somali': 75,'ICT': 75 }
@@ -49,7 +49,7 @@ const studentResults = {
 
     // Form 3 Students
     'F32501': { name: 'Abdiasis Abdi jama', class: 'Form 3', average: 'A+', decision: 'Pass',
-        grades: { 'Islamic Studies': 95,'Electricity': 95,'Arabic': 95,'Biology': 95,'Mathematics': 95,'English': 95,'Construction': 95,'Chemistry': 95,'Physics': 95,'Somali': 95,'ICT': 95 }
+        grades: { 'Islamic Studies': 95,'Electricity': 95,'Arabic': 95,'Biology': 95,'Mathematics': 90,'English': 92,'Construction': 98,'Chemistry': 90,'Physics': 92,'Somali': 91,'ICT': 95 }
     },
     'F32502': { name: 'osman abshir nour', class: 'Form 3', average: 'A+', decision: 'Pass',
         grades: { 'Islamic Studies': 65,'Electricity': 95,'Arabic': 65,'Biology': 95,'Mathematics': 95,'English': 85,'Construction': 95,'Chemistry': 85,'Physics': 85,'Somali': 85,'ICT': 95 }
